@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-02T00:00:00Z",
+  "updatedAt": "2026-04-02T12:00:00Z",
   "themes": [
     {
       "id": "nord-aurora",
@@ -66,6 +66,50 @@
       "previewBg": "#000000",
       "tags": ["dark", "amoled", "minimal", "oled"],
       "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/amoled-black.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "cyberpunk-neon",
+      "name": "Cyberpunk Neon",
+      "description": "Hot magenta and electric cyan on void black. Blade Runner terminal energy for a neon-drenched media server.",
+      "author": "ContinuumApp",
+      "previewAccent": "#ff2d6f",
+      "previewBg": "#07060b",
+      "tags": ["dark", "vibrant", "neon", "cyberpunk"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/cyberpunk-neon.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "phosphor",
+      "name": "Phosphor",
+      "description": "Monochrome green CRT terminal aesthetic. Every surface breathes phosphor — like watching movies on a mainframe.",
+      "author": "ContinuumApp",
+      "previewAccent": "#33ff00",
+      "previewBg": "#000000",
+      "tags": ["dark", "retro", "monochrome", "terminal"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/phosphor.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "vaporwave-sunset",
+      "name": "Vaporwave Sunset",
+      "description": "Synthwave excess — hot pink, deep purple, and electric teal. Palm trees and VHS tracking optional.",
+      "author": "ContinuumApp",
+      "previewAccent": "#ff71ce",
+      "previewBg": "#120a22",
+      "tags": ["dark", "vibrant", "retro", "synthwave"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/vaporwave-sunset.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "solar-flare",
+      "name": "Solar Flare",
+      "description": "Molten amber and gold on volcanic darks. Like watching your library through the heat shimmer of a furnace.",
+      "author": "ContinuumApp",
+      "previewAccent": "#ff9100",
+      "previewBg": "#100a04",
+      "tags": ["dark", "warm", "vibrant", "amber"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/solar-flare.json",
       "version": "1.0.0"
     }
   ]
