@@ -1,0 +1,14 @@
+/*
+ * Hide Sidebar Completely
+ *
+ * Removes the sidebar and gives the main content the full viewport width.
+ * Navigation is still available via the mobile header menu on smaller screens.
+ */
+
+aside {
+  display: none !important;
+}
+
+#main-content {
+  margin-left: 0 !important;
+}

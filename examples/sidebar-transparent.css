@@ -1,0 +1,23 @@
+/*
+ * Transparent Sidebar
+ *
+ * Makes the sidebar fully transparent so the background
+ * shows through, creating a more immersive look.
+ */
+
+aside {
+  background: transparent !important;
+  border-right-color: transparent !important;
+  backdrop-filter: none !important;
+}
+
+/* Subtle separator line only on hover */
+aside:hover {
+  border-right-color: color-mix(in srgb, var(--border) 30%, transparent) !important;
+}
+
+/* Make nav items have a slight glass background on hover */
+.sidebar-nav a:hover {
+  background: color-mix(in srgb, var(--surface) 50%, transparent) !important;
+  backdrop-filter: blur(12px) !important;
+}

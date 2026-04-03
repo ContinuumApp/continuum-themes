@@ -1,0 +1,29 @@
+/*
+ * Custom Login Page
+ *
+ * Restyle the authentication pages (login, signup) with
+ * a custom background, card styling, and accent colors.
+ */
+
+/* Full-page background — use a local image or gradient */
+.auth-shell {
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%) !important;
+}
+
+/* Remove the default radial gradient backdrop */
+.auth-shell::before {
+  display: none !important;
+}
+
+/* Login card — glass effect with custom border */
+.auth-card {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 1.5rem !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Accent the sign-in button */
+.auth-card button[type="submit"] {
+  background: linear-gradient(135deg, var(--primary), var(--accent)) !important;
+  border-radius: 0.75rem !important;
+}

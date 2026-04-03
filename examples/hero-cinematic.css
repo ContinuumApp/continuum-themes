@@ -1,0 +1,33 @@
+/*
+ * Cinematic Hero Banner
+ *
+ * Makes the home hero section taller with a more dramatic
+ * gradient and enhanced ambient glow effect.
+ */
+
+/* Taller hero section */
+.home-hero {
+  min-height: 85dvh !important;
+}
+
+/* Stronger ambient glow */
+.home-hero .ambient-glow {
+  opacity: 0.2 !important;
+}
+
+/* Darker, more dramatic gradient fade */
+.home-hero .hero-gradient {
+  background: linear-gradient(
+    to top,
+    var(--background) 0%,
+    color-mix(in srgb, var(--background) 95%, transparent) 25%,
+    color-mix(in srgb, var(--background) 40%, transparent) 55%,
+    transparent 100%
+  ) !important;
+}
+
+/* Boost backdrop image contrast */
+.home-hero img,
+.item-detail-hero img {
+  filter: brightness(0.7) saturate(1.1) contrast(1.05);
+}

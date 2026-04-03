@@ -1,0 +1,19 @@
+/*
+ * Always-Collapsed Sidebar
+ *
+ * Keeps the sidebar in its compact/icon-only state at all times,
+ * giving more screen space to the main content area.
+ */
+
+aside {
+  width: 64px !important;
+}
+
+#main-content {
+  margin-left: 64px !important;
+}
+
+.sidebar-logo-text,
+.sidebar-nav span:not([class*="h-"]):not([class*="w-"]) {
+  display: none !important;
+}

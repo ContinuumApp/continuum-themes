@@ -1,0 +1,33 @@
+/*
+ * Item Detail Page Tweaks
+ *
+ * Customize the movie/series detail page hero section,
+ * including backdrop height, blur, and metadata layout.
+ */
+
+/* Taller backdrop hero */
+.item-detail-hero {
+  min-height: 65vh !important;
+}
+
+/* Blur the backdrop image slightly for a dreamy effect */
+.item-detail-hero img[alt="Backdrop"] {
+  filter: blur(2px) brightness(0.65) saturate(1.2) !important;
+  transform: scale(1.05); /* Prevent blur edge artifacts */
+}
+
+/* Stronger bottom gradient on detail hero */
+.item-detail-hero .hero-gradient {
+  background: linear-gradient(
+    to top,
+    var(--background) 0%,
+    color-mix(in srgb, var(--background) 90%, transparent) 30%,
+    transparent 70%
+  ) !important;
+}
+
+/* Larger title text on detail pages */
+.item-detail-hero .page-title {
+  font-size: clamp(2.5rem, 5vw, 4.5rem) !important;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+}

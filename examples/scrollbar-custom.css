@@ -1,0 +1,40 @@
+/*
+ * Custom Scrollbars
+ *
+ * Restyle all scrollbars across the app with custom
+ * colors and width. Works in Chromium and Firefox.
+ */
+
+/* Global scrollbar — all scrollable areas */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--primary) 30%, transparent) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--primary) 25%, transparent);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--primary) 45%, transparent);
+}
+
+/* Hide scrollbar entirely (content still scrollable) */
+/*
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  scrollbar-width: none;
+}
+*/

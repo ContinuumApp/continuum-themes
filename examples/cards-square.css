@@ -1,0 +1,25 @@
+/*
+ * Square/Sharp Cards
+ *
+ * Removes border radius from cards and panels for a
+ * grid-like, editorial design aesthetic.
+ */
+
+:root {
+  --radius: 0rem;
+}
+
+.media-card-image {
+  border-radius: 2px !important;
+}
+
+.surface-panel,
+.surface-panel-subtle {
+  border-radius: 4px !important;
+}
+
+.glass,
+.glass-subtle,
+.glass-dark {
+  border-radius: 4px !important;
+}

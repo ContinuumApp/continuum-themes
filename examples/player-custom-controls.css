@@ -1,0 +1,31 @@
+/*
+ * Custom Player Controls
+ *
+ * Restyle the video player controls with custom colors,
+ * rounded seek bar, and translucent control bar.
+ */
+
+/* Control bar background */
+.player-controls {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.4) 60%,
+    transparent 100%
+  ) !important;
+}
+
+/* Seek bar track */
+.player-seekbar {
+  --seek-height: 6px;
+}
+
+.player-seekbar > div:first-child {
+  height: var(--seek-height);
+  border-radius: var(--seek-height);
+}
+
+/* Make the player background slightly transparent when paused */
+.player-container:has(video[paused]) {
+  background: rgba(0, 0, 0, 0.9) !important;
+}

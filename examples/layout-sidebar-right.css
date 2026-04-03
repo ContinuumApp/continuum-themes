@@ -1,0 +1,18 @@
+/*
+ * Move Sidebar to Right Side
+ *
+ * Repositions the sidebar to the right edge of the screen.
+ * The main content shifts to fill the left side.
+ */
+
+aside {
+  left: auto !important;
+  right: 0;
+  border-right: none !important;
+  border-left: 1px solid var(--sidebar-border);
+}
+
+#main-content {
+  margin-left: 0 !important;
+  margin-right: 260px;
+}

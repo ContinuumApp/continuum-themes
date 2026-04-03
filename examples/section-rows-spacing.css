@@ -1,0 +1,32 @@
+/*
+ * Section Row Spacing
+ *
+ * Adjust spacing between home page content rows
+ * (Continue Watching, Recommended, Libraries, etc.)
+ */
+
+/* More breathing room between sections */
+.section-row {
+  margin-bottom: 2.5rem !important;
+}
+
+/* Alternatively, tighter/compact rows: */
+/*
+.section-row {
+  margin-bottom: 0.75rem !important;
+}
+*/
+
+/* Larger section titles */
+.section-row h2 {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+}
+
+/* Add a subtle divider between sections */
+/*
+.section-row + .section-row {
+  border-top: 1px solid color-mix(in srgb, var(--border) 40%, transparent);
+  padding-top: 2rem;
+}
+*/

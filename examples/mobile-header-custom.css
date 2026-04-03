@@ -1,0 +1,33 @@
+/*
+ * Custom Mobile Header
+ *
+ * Restyle the mobile navigation header bar that appears
+ * on screens smaller than the lg breakpoint.
+ */
+
+/* Fully transparent mobile header */
+.mobile-header {
+  background: transparent !important;
+  border-color: transparent !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+
+/* Or: solid colored header */
+/*
+.mobile-header {
+  background: var(--sidebar) !important;
+  backdrop-filter: none !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+*/
+
+/* Hide the server name on mobile (keep just the logo icon) */
+/*
+.mobile-header .sidebar-logo-text {
+  display: none !important;
+}
+*/

@@ -1,0 +1,29 @@
+/*
+ * Extra-Rounded Cards
+ *
+ * Makes media cards, panels, and surfaces more rounded
+ * for a softer, more modern look.
+ */
+
+:root {
+  --radius: 1rem;
+}
+
+/* Media poster cards */
+.media-card-image {
+  border-radius: 1.2rem !important;
+}
+
+/* Surface panels (settings groups, etc.) */
+.surface-panel,
+.surface-panel-subtle {
+  border-radius: 2rem !important;
+}
+
+/* Buttons and pills */
+.pill,
+.pill-primary,
+.pill-secondary,
+.pill-glass {
+  border-radius: 9999px !important;
+}

@@ -1,0 +1,27 @@
+/*
+ * Disable All Animations
+ *
+ * Removes all transitions, animations, and transforms for users
+ * who prefer reduced motion or want maximum snappiness.
+ */
+
+*,
+*::before,
+*::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Disable card hover lift */
+.media-card:hover {
+  transform: none !important;
+}
+
+/* Disable view transitions */
+::view-transition-group(*),
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation: none !important;
+}
