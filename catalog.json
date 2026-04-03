@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-02T00:00:00Z",
+  "themes": [
+    {
+      "id": "nord-aurora",
+      "name": "Nord Aurora",
+      "description": "Cool arctic palette inspired by the Nord color system. Muted blues with aurora green accents.",
+      "author": "ContinuumApp",
+      "previewAccent": "#88c0d0",
+      "previewBg": "#2e3440",
+      "tags": ["dark", "cool", "minimal"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/nord-aurora.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "description": "The classic Dracula color scheme. Purple and pink on a dark charcoal base.",
+      "author": "ContinuumApp",
+      "previewAccent": "#bd93f9",
+      "previewBg": "#282a36",
+      "tags": ["dark", "vibrant", "popular"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/dracula.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "solarized-dark",
+      "name": "Solarized Dark",
+      "description": "Ethan Schoonover's precision-engineered Solarized palette on a dark base.",
+      "author": "ContinuumApp",
+      "previewAccent": "#268bd2",
+      "previewBg": "#002b36",
+      "tags": ["dark", "warm", "classic"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/solarized-dark.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "rose-pine",
+      "name": "Rose Pine",
+      "description": "Soho vibes with muted rose and pine tones. Warm and easy on the eyes.",
+      "author": "ContinuumApp",
+      "previewAccent": "#ebbcba",
+      "previewBg": "#191724",
+      "tags": ["dark", "warm", "cozy"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/rose-pine.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "tokyo-night",
+      "name": "Tokyo Night",
+      "description": "Inspired by Tokyo's neon-lit skyline. Deep indigo with electric blue highlights.",
+      "author": "ContinuumApp",
+      "previewAccent": "#7aa2f7",
+      "previewBg": "#1a1b26",
+      "tags": ["dark", "vibrant", "popular"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/tokyo-night.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "amoled-black",
+      "name": "AMOLED Black",
+      "description": "True black backgrounds for OLED displays. Maximum contrast, minimum burn-in.",
+      "author": "ContinuumApp",
+      "previewAccent": "#ffffff",
+      "previewBg": "#000000",
+      "tags": ["dark", "amoled", "minimal", "oled"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/amoled-black.json",
+      "version": "1.0.0"
+    }
+  ]
+}
