@@ -111,6 +111,94 @@
       "tags": ["dark", "warm", "vibrant", "amber"],
       "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/solar-flare.json",
       "version": "1.0.0"
+    },
+    {
+      "id": "catppuccin",
+      "name": "Catppuccin",
+      "description": "Pastel purple on warm dark blue. Based on the popular Catppuccin Mocha palette.",
+      "author": "ContinuumApp",
+      "previewAccent": "#cba6f7",
+      "previewBg": "#1e1e2e",
+      "tags": ["dark", "pastel", "popular"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/catppuccin.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "gruvbox",
+      "name": "Gruvbox",
+      "description": "Warm retro with golden accent. Based on the classic Gruvbox Dark palette.",
+      "author": "ContinuumApp",
+      "previewAccent": "#fabd2f",
+      "previewBg": "#282828",
+      "tags": ["dark", "warm", "retro", "popular"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/gruvbox.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "void-space",
+      "name": "Void Space",
+      "description": "Cool blue on deep space black. GitHub-inspired dark palette.",
+      "author": "ContinuumApp",
+      "previewAccent": "#58a6ff",
+      "previewBg": "#0d1117",
+      "tags": ["dark", "cool", "minimal"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/void-space.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "charcoal-studio",
+      "name": "Charcoal",
+      "description": "Apple-inspired blue on dark gray. Clean and modern.",
+      "author": "ContinuumApp",
+      "previewAccent": "#0a84ff",
+      "previewBg": "#1c1c1e",
+      "tags": ["dark", "minimal", "clean"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/charcoal-studio.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "graphite-pro",
+      "name": "Graphite",
+      "description": "Vibrant purple on zinc. Sleek and professional.",
+      "author": "ContinuumApp",
+      "previewAccent": "#a855f7",
+      "previewBg": "#18181b",
+      "tags": ["dark", "vibrant", "professional"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/graphite-pro.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "obsidian-depth",
+      "name": "Obsidian",
+      "description": "Cyan accent on true dark. Deep and minimal.",
+      "author": "ContinuumApp",
+      "previewAccent": "#00d4aa",
+      "previewBg": "#0f0f0f",
+      "tags": ["dark", "cool", "minimal"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/obsidian-depth.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "ember-slate",
+      "name": "Ember",
+      "description": "Smoked charcoal with ember-red accents. Warm and cinematic.",
+      "author": "ContinuumApp",
+      "previewAccent": "#f07b62",
+      "previewBg": "#151213",
+      "tags": ["dark", "warm", "cinematic"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/ember-slate.json",
+      "version": "1.0.0"
+    },
+    {
+      "id": "verdant-ink",
+      "name": "Verdant Ink",
+      "description": "Cool green-black with softer luminous contrast. Lush and serene.",
+      "author": "ContinuumApp",
+      "previewAccent": "#86d4b6",
+      "previewBg": "#0d1513",
+      "tags": ["dark", "cool", "nature"],
+      "downloadUrl": "https://raw.githubusercontent.com/ContinuumApp/continuum-themes/main/themes/verdant-ink.json",
+      "version": "1.0.0"
     }
   ]
 }
